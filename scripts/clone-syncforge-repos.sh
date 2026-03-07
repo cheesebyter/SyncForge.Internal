@@ -5,11 +5,10 @@ ROOT_PATH="${1:-$PWD}"
 NO_BUILD="${2:-}"
 
 repos=(
-  "https://github.com/cheesebyter/SyncForge.git"
-  "https://github.com/cheesebyter/SyncForge.Plugin.MsSql.git"
-  "https://github.com/cheesebyter/SyncForge.Configurator.git"
-  "https://github.com/cheesebyter/SyncForge.Internal.git"
-  "https://github.com/cheesebyter/SyncForge.Workspace.Internal.git"
+  "git@github.com:cheesebyter/SyncForge.git"
+  "git@github.com:cheesebyter/SyncForge.Plugin.MsSql.git"
+  "git@github.com:cheesebyter/SyncForge.Configurator.git"
+  "git@github.com:cheesebyter/SyncForge.Workspace.Internal.git"
 )
 
 if [[ ! -d "$ROOT_PATH" ]]; then
