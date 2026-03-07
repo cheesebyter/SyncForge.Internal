@@ -57,10 +57,10 @@ Status: Closed (07-03-2026)
 
 ### EPIC 8 - Umsetzungsnachweis (07-03-2026)
 
-- Neues Projekt `src/SyncForge.Configurator` erstellt (Avalonia + MVVM Struktur).
+- Neues Projekt `../SyncForge.Configurator` erstellt (Avalonia + MVVM Struktur).
 - Solution erweitert: `src/SyncForge.sln` enthaelt `SyncForge.Configurator`.
 - Build erfolgreich: `dotnet build .\src\SyncForge.sln -c Release`.
-- Runtime Smoke Test: `dotnet run --project .\src\SyncForge.Configurator\SyncForge.Configurator.csproj` gestartet (MainWindow laeuft).
+- Runtime Smoke Test: `dotnet run --project ..\SyncForge.Configurator\SyncForge.Configurator.csproj` gestartet (MainWindow laeuft).
 - Job File Management vorhanden: New/Open/Save/Save As mit sauberer JSON-Fehlerbehandlung.
 - Core Validation Integration vorhanden: Validate nutzt `JobDefinitionJson` + `JobDefinitionValidator` aus Abstractions/Core-Pfad.
 
